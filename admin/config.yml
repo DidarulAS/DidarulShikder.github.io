@@ -1,0 +1,19 @@
+backend:
+  name: turbo-github
+  turbo_site_id: 3094fd01-1b8d-4234-8aad-ac02fef78c18
+
+media_folder: "uploads"
+public_folder: "/DidarulShikder.github.io/uploads"
+
+collections:
+  - name: "test"
+    label: "Test Content"
+    folder: "content/test"
+    create: true
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Description"
+        name: "body"
+        widget: "markdown"
