@@ -6,6 +6,22 @@ media_folder: "uploads"
 public_folder: "/DidarulShikder.github.io/uploads"
 
 collections:
+  - name: "homepage"
+    label: "Homepage"
+    files:
+      - name: "homepage"
+        label: "Homepage Details"
+        file: "content/homepage.json"
+        fields:
+          - label: "Full Name"
+            name: "name"
+            widget: "string"
+          - label: "Professional Title"
+            name: "title"
+            widget: "string"
+          - label: "Biography"
+            name: "bio"
+            widget: "text"
   - name: "test"
     label: "Test Content"
     folder: "content/test"
